@@ -7,7 +7,7 @@ export interface IProduct {
   slug?: string;                 
   shortDescription?: string;
   description?: string;
-  category: string | Types.ObjectId; 
+  category: Types.ObjectId; 
   brand?: string;
   price: number;
   compareAtPrice?: number;
